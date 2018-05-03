@@ -26,17 +26,19 @@ main {
             margin: 40px 8px;
         }
 footer {
-        padding: 20px;
+    
         background-color: #0D2C40;
         color: white;
         font-size: 14px;
         letter-spacing: .08em;
         font-weight: 500;
+        text-transform: upppercase;
+       
 }
-copyright {
+.copyright {
     float: left;
 }
-message {
+.message {
     float: right; 
 }
 .clearfix:after {
@@ -55,13 +57,12 @@ nav {
     
     background-color: #00A6B3;
     color: white;
-    padding: 20px;
-    border-bottom: 2x solid transparent;
+    padding: 20px 0px;
+}
+
     a:hover{
         border-color: white;
-    }
 }
 nav a {
-    margin: 20px;
-    ;
+    border-bottom: 2x solid transparent;
     }
